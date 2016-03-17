@@ -13,7 +13,7 @@ Point pointTwo = new Point(4,3);
 
 Point pointThree = new Point(1,5);	
 	
-// проверка условий 
+// РїСЂРѕРІРµСЂРєР° СѓСЃР»РѕРІРёР№
 
 if ( pointOne.x == pointOne.y && pointTwo.x == pointTwo.y && pointThree.x ==pointThree.y ||  pointOne.x == pointTwo.x && pointTwo.x == pointThree.x 
 ||  pointOne.y == pointTwo.y && pointTwo.y == pointThree.y  || pointOne.x == 0 && pointOne.y ==0 || 
@@ -22,7 +22,7 @@ if ( pointOne.x == pointOne.y && pointTwo.x == pointTwo.y && pointThree.x ==poin
  
 
 	
- System.out.println("Прямая линия либо введены нулевые координаты! Это не треугольник.  ");
+ System.out.println("ГЏГ°ГїГ¬Г Гї Г«ГЁГ­ГЁГї Г«ГЁГЎГ® ГўГўГҐГ¤ГҐГ­Г» Г­ГіГ«ГҐГўГ»ГҐ ГЄГ®Г®Г°Г¤ГЁГ­Г ГІГ»! ГќГІГ® Г­ГҐ ГІГ°ГҐГіГЈГ®Г«ГјГ­ГЁГЄ.  ");
  
  
  }	
@@ -32,7 +32,7 @@ if ( pointOne.x == pointOne.y && pointTwo.x == pointTwo.y && pointThree.x ==poin
 	
 	
 
-//вычисление площади
+//РІС‹С‡РёСЃР»РµРЅРёРµ РїР»РѕС‰Р°РґРё 
 int h=0;
 int dlina = 0;
 int result =0;
@@ -43,7 +43,7 @@ dlina = pointThree.y - pointOne.y;
 
 result = Square.squareCalc(dlina,h);
  
-System.out.println("Площадь треугольника =   "+ result  + "  условных единиц");		
+System.out.println("ГЏГ«Г®Г№Г Г¤Гј ГІГ°ГҐГіГЈГ®Г«ГјГ­ГЁГЄГ  =   "+ result  + "  ГіГ±Г«Г®ГўГ­Г»Гµ ГҐГ¤ГЁГ­ГЁГ¶");		
 }
 	
 }	
