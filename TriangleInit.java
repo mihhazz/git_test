@@ -22,7 +22,7 @@ if ( pointOne.x == pointOne.y && pointTwo.x == pointTwo.y && pointThree.x ==poin
  
 
 	
- System.out.println("Ïðÿìàÿ ëèíèÿ ëèáî ââåäåíû íóëåâûå êîîðäèíàòû! Ýòî íå òðåóãîëüíèê.  ");
+ System.out.println("Это не треугольник!.  ");
  
  
  }	
@@ -43,7 +43,7 @@ dlina = pointThree.y - pointOne.y;
 
 result = Square.squareCalc(dlina,h);
  
-System.out.println("Ïëîùàäü òðåóãîëüíèêà =   "+ result  + "  óñëîâíûõ åäèíèö");		
+System.out.println("Площадь треугольника  =   "+ result  + "  условных единиц");		
 }
 	
 }	
