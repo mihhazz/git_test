@@ -13,26 +13,14 @@ Point pointTwo = new Point(4,3);
 
 Point pointThree = new Point(1,5);	
 	
-// РїСЂРѕРІРµСЂРєР° СѓСЃР»РѕРІРёР№
-
-if ( pointOne.x == pointOne.y && pointTwo.x == pointTwo.y && pointThree.x ==pointThree.y ||  pointOne.x == pointTwo.x && pointTwo.x == pointThree.x 
-||  pointOne.y == pointTwo.y && pointTwo.y == pointThree.y  || pointOne.x == 0 && pointOne.y ==0 || 
- pointTwo.x == 0 && pointTwo.y ==0  || pointThree.x == 0 && pointThree.y ==0 ) {	
-	
- 
 
 	
- System.out.println("Р­С‚Рѕ РЅРµ С‚СЂРµСѓРіРѕР»СЊРЅРёРє!.  ");
- 
- 
- }	
-	
-
+TriangleCheck(pointOne, pointTwo, pointThree);
 
 	
 	
 
-//РІС‹С‡РёСЃР»РµРЅРёРµ РїР»РѕС‰Р°РґРё 
+//вычисление площади
 int h=0;
 int dlina = 0;
 int result =0;
@@ -41,9 +29,9 @@ h = pointTwo.x - pointOne.x;
 dlina = pointThree.y - pointOne.y;
 
 
-result = Square.squareCalc(dlina,h);
+result = Triangl.Triangle(dlina,h);
  
-System.out.println("РџР»РѕС‰Р°РґСЊ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°  =   "+ result  + "  СѓСЃР»РѕРІРЅС‹С… РµРґРёРЅРёС†");		
+System.out.println("Площадь треугольника =   "+ result  + "  условных единиц");		
 }
 	
 }	
