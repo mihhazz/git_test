@@ -15,7 +15,7 @@ Point pointThree = new Point(1,5);
 	
 
 	
-TriangleCheck(pointOne, pointTwo, pointThree);
+TriangleCheck (pointOne, pointTwo, pointThree);
 
 	
 	
@@ -29,7 +29,7 @@ h = pointTwo.x - pointOne.x;
 dlina = pointThree.y - pointOne.y;
 
 
-result = Triangl.Triangle(dlina,h);
+result = TriangleArea.TriangleCalc(dlina,h);
  
 System.out.println("Площадь треугольника =   "+ result  + "  условных единиц");		
 }
