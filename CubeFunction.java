@@ -1,25 +1,21 @@
 package cubeFunction;
-public class CubeFunctionInit {
-
-public static void main (String[] args) {
-float result;
-int x1=0;
-int x2=0;
-
-CubeFunction c = new CubeFunction(5,7,12);
-  
- for(String arg : args) {
-	 
-	x1 = Integer.parseInt(args[0]);  
-    x2 = Integer.parseInt(args[1]);
+public class CubeFunction {
+	
+public int a, b, c;
+public float result;
+ 
+ public CubeFunction(int aa,int bb,int cc) {
+	a = aa;
+	b = bb;
+	c = cc;
+  	 
  }
-for (int i = x1; i<=x2; i++) {
-result = c.calculate(i);
-System.out.println("x = "+i +"  y = " + result );
-}
-
-
-
-}
-
+ 
+  public float calculate(int x) {
+	  result = (a*x*x)+(b*x)+c;
+	  return result;
+  }
+	
+	
+	
 }
