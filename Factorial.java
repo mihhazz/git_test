@@ -5,7 +5,7 @@ package factorials ;
 
 public  class Factorial {
 	
-	public int result= 1;
+	public int result= 2;
 		public Factorial(int factor) {
 				if (factor == 0) {
 				result = 1; 
