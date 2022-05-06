@@ -7,7 +7,7 @@ public  class Factorial {
 	
 	public int result= 2;
 		public Factorial(int factor) {
-				if (factor == 0) {
+				if (factor == 1) {
 				result = 1; 
 				}
 				else 
