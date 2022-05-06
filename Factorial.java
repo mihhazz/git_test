@@ -1,5 +1,8 @@
 package factorials ;
 
+
+
+
 public  class Factorial {
 	
 	public int result= 1;
