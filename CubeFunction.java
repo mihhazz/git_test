@@ -1,3 +1,4 @@
+
 package cubeFunction;
 public class CubeFunction {
 	
